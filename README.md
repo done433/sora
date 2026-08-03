@@ -3,7 +3,7 @@
 
 # 💥 Realtime Stock Trend Predictor  
 
-![חתול הפרויקט שלי – My Cat](cute-cat-eyes-profile-picture-uq3edzmg1guze2hh.webp)
+![חתול הפרויקט שלי – My Cat](sora.jpeg)
 
 
 ## Getting started
@@ -19,7 +19,7 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/done433/sora.git
+git remote add origin https://
 git branch -M main
 git push -uf origin main
 ```
