@@ -1,0 +1,13 @@
+
+source .venv/bin/activate
+python3 ping.py
+python3 -u stocks.py | tee -a prlrt.txt
+deactivate
+pip list --outdated --format=json | python3 -c "import sys, json; [print(pkg['name']) for pkg in json.load(sys.stdin)]" | xargs -n1 pip install -U
+
+gnuplot plot_live.gnu
+
+python3 -u stocks2.py | tee -a prlrt.txt
+
+source ~/myenvs/myproject-env/bin/activate
+python3 -u stocks2.py | tee -a prlrt4.txt
