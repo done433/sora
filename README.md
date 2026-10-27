@@ -1,11 +1,3 @@
-![Sora, my cat](sora.jpeg)
-In memory of Sora — the most beautiful cat in the world. He loved Bamba and
-helped me chase away bugs. My silly little boy, the one I loved most of all.
-I miss you, Sora.
-
-
-
-
 <div align="center">
 
 <img src="sora.jpeg" alt="Sora, my cat" width="280">
@@ -56,6 +48,10 @@ keeps learning as new data arrives:
 - **Realtime predictions** — a new forecast every 10 seconds with minimal drift.
 - **Continuous learning** — the model updates with every incoming batch instead
   of relying on a frozen snapshot.
+- **Live tree-based learning** — online decision-tree models that train
+  incrementally and persist their weights between runs, so learning picks up
+  where it left off. Prediction itself is stateless (holds no memory);
+  everything runs on the River online-ML library.
 - **Trading-bot ready** — exposes buy/sell signals an automated strategy can act on.
 - **Live visualization** — prices and predictions plotted in real time with Gnuplot.
 
