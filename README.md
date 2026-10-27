@@ -1,6 +1,6 @@
----
-![Sora, my cat](sora.jpeg)
 
+![Sora, my cat](sora.jpeg)
+![My Project Cat](sora.jpeg)
 In memory of Sora — the most beautiful cat in the world. He loved Bamba and
 helped me chase away bugs. My silly little boy, the one I loved most of all.
 I miss you, Sora.
