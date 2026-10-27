@@ -1,3 +1,19 @@
+
+---
+## License
+
+Released under the **MIT License** — use it, copy it, change it, share it, even
+commercially, no strings attached beyond keeping the copyright notice. See
+[LICENSE](LICENSE) for the full text.
+
+---
+
+
+
+
+
+
+
 # 💥 Realtime Stock Trend Predictor  
 ## Real-Time Online Learning System for Stock Analysis & Network Monitoring
 
